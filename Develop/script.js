@@ -1,10 +1,6 @@
-const m = moment();
-console.log(m.format("LLLL"));
+// display date and time inside the jumbotron
 
-// const currentDate = moment().format('LLLL'); // get current date
-// document.getElementById("currentDay").textContent = currentDate; // display inside the element
-
-let renderClock = function(){
+let renderDateTime = function(){
     document.querySelector("#currentDay").innerHTML =
     `
     <h5> ${moment().format('MMMM Do YYYY, h:mm:ss a')}<h5>
@@ -12,5 +8,6 @@ let renderClock = function(){
 };
 
 
-renderClock();
-setInterval(renderClock, 1000);
+renderDateTime();
+setInterval(renderDateTime, 1000);
+
