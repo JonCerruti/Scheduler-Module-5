@@ -10,11 +10,12 @@ var saveBtn = $(".saveBtn");
 //color time blocks based on hour of the day past = gray present = red futire = green
 function renderHourColor(){
    var time = moment().hours();
+   console.log(time);
     //.each to loop over id's in html 
    $(".time-block").each(function () {
     //PrseInt returns values as a string and returns first intenger
             var hourBlock = parseInt($(this).attr("id"));
-            // console.log( hourBlock);
+            console.log( hourBlock);
             // console.log(this);
             // if then statement that adds class from css style page 
             if (hourBlock < time) {
