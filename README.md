@@ -18,9 +18,9 @@ This page has hours of a typical 9-5 work day. Each hour has a text area that yo
 - mdn WebDocs
 - Stack Overflow
 - These Videos below
-[![Parsing Date Time Strings - Moment.js Tutorial #2](develop/images/Screenshot%202022-06-28%2011.44.41.png)](https://youtu.be/TVJ-fuwr4gs)
-[![34 jQuery addClass removeClass](develop/images/Screenshot%202022-06-28%2011.49.50.png)](https://youtu.be/EydG_0V3rU4)
+[![Parsing Date Time Strings - Moment.js Tutorial #2](https://github.com/JonCerruti/Scheduler-Module-5/blob/main/Develop/images/Screenshot%202022-06-28%2011.44.41.png)](https://youtu.be/TVJ-fuwr4gs)
+[![34 jQuery addClass removeClass](https://github.com/JonCerruti/Scheduler-Module-5/blob/main/Develop/images/Screenshot%202022-06-28%2011.49.50.png)](https://youtu.be/EydG_0V3rU4)
 ---
 # Page Example
-![Work Day Scheduler Example](develop/images/Scheduler-Example.png)
+![Work Day Scheduler Example](https://github.com/JonCerruti/Scheduler-Module-5/blob/main/Develop/images/Scheduler-Example.png)
 
