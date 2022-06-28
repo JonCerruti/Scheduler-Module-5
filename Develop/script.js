@@ -1,9 +1,6 @@
 // display date inside the jumbotron
 $("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
 
-//variables
-// let timeBlock = document.querySelector('.timeBlock');
-// let time = document.querySelector('.time');
 
 var saveBtn = $(".saveBtn");
 
@@ -16,11 +13,11 @@ function renderHourColor(){
     //PrseInt returns values as a string and returns first intenger
             var hourBlock = parseInt($(this).attr("id"));
             console.log( hourBlock);
-            // console.log(this);
+          
             // if then statement that adds class from css style page 
             if (hourBlock < time) {
                 $(this).addClass("past");
-                // console.log(this);
+                
             }
             else if (hourBlock === time){
                 $(this).addClass("present");
