@@ -10,38 +10,40 @@ var saveBtn = $(".saveBtn");
 //color time blocks based on hour of the day past = gray present = red futire = green
 function renderHourColor(){
    var time = moment().hours();
-
+    //.each to loop over id's in html 
    $(".time-block").each(function () {
+    //PrseInt returns values as a string and returns first intenger
             var hourBlock = parseInt($(this).attr("id"));
             // console.log( hourBlock);
             // console.log(this);
-
-            if (hourBlock > time) {
-                $(this).addClass(".future");
+            // if then statement that adds class from css style page 
+            if (hourBlock < time) {
+                $(this).addClass("past");
                 // console.log(this);
             }
             else if (hourBlock === time){
-                $(this).addClass(".present");
+                $(this).addClass("present");
             }
 
             else {
-                $(this).addClass(".past");
+                $(this).addClass("future");
             }
 
     })
-
+    console.log(this);
 };
 
 saveBtn.on("click", function() {
 
-    // console.log(this); //save button
+   
     var hour = $(this).siblings(".time").text();
     var task = $(this).siblings(".task").val();
 
-    // THEN the text for that event is saved in local storage
-    localStorage.setItem(hour, task);
+    // the text is saved in local storage
+    localStorage.setItem(hour, task);;
+    console.log(saveBtn)
 });
-
+    //get the text from local storage and display on webpage even after refresh
 function workDay(){
     $(".time").each(function(){
         var hourBlock = $(this).text();
@@ -56,3 +58,4 @@ function workDay(){
 renderHourColor();
 console.log(renderHourColor);
 workDay();
+console.log(workDay);
