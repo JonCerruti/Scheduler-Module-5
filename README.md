@@ -21,7 +21,7 @@ This page has hours of a typical 9-5 work day. Each hour has a text area that yo
 [![Parsing Date Time Strings - Moment.js Tutorial #2](https://github.com/JonCerruti/Scheduler-Module-5/blob/main/Develop/images/Screenshot%202022-06-28%2011.44.41.png)](https://youtu.be/TVJ-fuwr4gs)
 [![34 jQuery addClass removeClass](https://github.com/JonCerruti/Scheduler-Module-5/blob/main/Develop/images/Screenshot%202022-06-28%2011.49.50.png)](https://youtu.be/EydG_0V3rU4)
 ---
-# Page Example
+# Page Example with Link 
 ![Work Day Scheduler Example](https://github.com/JonCerruti/Scheduler-Module-5/blob/main/Develop/images/Scheduler-Example.png)
+- [Work Day Secduler](https://joncerruti.github.io/Scheduler-Module-5/)
 
-# Link to WebPage
