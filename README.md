@@ -23,5 +23,5 @@ This page has hours of a typical 9-5 work day. Each hour has a text area that yo
 ---
 # Page Example with Link 
 ![Work Day Scheduler Example](https://github.com/JonCerruti/Scheduler-Module-5/blob/main/Develop/images/Scheduler-Example.png)
-- [Work Day Secduler](https://joncerruti.github.io/Scheduler-Module-5/)
+- [Work Day Scheduler](https://joncerruti.github.io/Scheduler-Module-5/)
 
